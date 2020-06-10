@@ -27,7 +27,7 @@
       prevEl: '.swiper-button-prev'
     },
     autoplay: {
-      delay: 1000,
+      delay: 5000,
       stopOnLastSlide: false,
       disableOnInteraction: false,
       reverseDirection: false
