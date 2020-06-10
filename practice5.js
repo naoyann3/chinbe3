@@ -4,17 +4,17 @@
   var mySwiper = new Swiper('.swiper-container', {
     loop: true,
     slidesPerView: 3,
-    spaceBetween: 0,
+    spaceBetween: 10,
     
     // レスポンシブブレークポイント（画面幅による設定）
     breakpoints: {
       // 画面幅が 380px までの場合（window width >= 480px）
       380: {
         slidesPerView: 1,
-        spaceBetween: 10,
+        spaceBetween: 0,
         centeredSlides: true
     },
-    // 画面幅が 768px 以上の場合（window width >= 980px）
+    // 画面幅が 768px 以上の場合（window width >= 768px）
     768: {
       slidesPerView: 3,
       spaceBetween: 10,
